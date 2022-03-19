@@ -1,2 +1,54 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@300&display=swap');
 
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+body {
+    font-family: open-sans, poppins, Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+    color: black;
+}
+
+header {
+    background-color: whitesmoke;
+}
+
+#site-title {
+    font-size: 200%;
+    color: darkred;
+    float: left;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+#nav-menu, li {
+    float:right;
+    font-size: 120%;
+    padding: 6px;
+    list-style-type: none;
+    
+}
+
+#nav-menu, a {
+    text-decoration: none;
+    color: black;
+   
+}
+
+#site-title, #nav-menu {
+    line-height: 100px;
+}
+
+#nav-menu, a:hover {
+    color: darkred;
+    
+}
+
+.active {
+    border-bottom: 1px solid darkred;
+}
+
+

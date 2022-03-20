@@ -15,10 +15,11 @@ body {
 header {
     background-color: whitesmoke;
     height: 100px;
+    width: 100%;
 }
 
 #site-title {
-    font-size: 200%;
+    font-size: 150%;
     color: darkred;
     float: left;
     text-decoration: none;
@@ -28,10 +29,11 @@ header {
 
 #nav-menu, li {
     float:right;
-    font-size: 150%;
+    font-size: 125%;
     list-style-type: none;
-    margin-top: 35px;
-    margin-right: 25px;
+    margin-top: 10px;
+    margin-right: 20px;
+    position: relative;
 }
 
 #nav-menu, a {
@@ -55,7 +57,7 @@ header {
 
 #main-image {
     
-    height: 500px;
+    height: 700px;
     width: 100%;
     background: url(../images/pexels-gustavo-fring-5888283.jpg) no-repeat center center;
     background-size: cover;
@@ -64,13 +66,13 @@ header {
 
 #main-image-text {
     background-color: rgba(139, 0, 0, 0.65);
-    color: white;
+    color: whitesmoke;
     text-align: center;
     width: 300px;
     height: 125px;
     padding-top: 25px;
     padding-bottom: 25px;
-    bottom: 250px;
+    bottom: 150px;
     right: 75px;
     position: absolute;
 
@@ -83,7 +85,39 @@ header {
 
 }
 
+#section-about-us {
+    background-color: whitesmoke;
+    height: 600px;
+    padding: 50px;
+    border-top: darkred solid 10px;
+    border-bottom: darkred solid 10px;
+    
+    
+}
 
+#about-us {
+    text-align: center;
+    font-size: 200%;
+    text-decoration: underline;
+    color: black;
+    width: 50%;
+}
+#history-icon, #people-icon, #perform-icon {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: darkred;
+    font-size: 40px;
+}
 
+#history-heading, #who-heading, #perform-heading {
+    text-align: center;
+    color: black;
+    font-style: italic;
+    padding-bottom: 10px;
 
+}
 
+#history, #who, #perform {
+    text-align: center;
+    width:50%;
+    color: darkred;

@@ -59,7 +59,7 @@ header {
     
     height: 700px;
     width: 100%;
-    background: url(../images/pexels-gustavo-fring-5888283.jpg) no-repeat center center;
+    background: url(../images/main-image.jpg) no-repeat center center;
     background-size: cover;
     
 }
@@ -91,8 +91,6 @@ header {
     padding: 50px;
     border-top: darkred solid 10px;
     border-bottom: darkred solid 10px;
-    
-    
 }
 
 #about-us {
@@ -100,13 +98,16 @@ header {
     font-size: 200%;
     text-decoration: underline;
     color: black;
-    width: 50%;
+    
+    
+   
 }
 #history-icon, #people-icon, #perform-icon {
     padding-top: 20px;
     padding-bottom: 20px;
     color: darkred;
     font-size: 40px;
+   
 }
 
 #history-heading, #who-heading, #perform-heading {
@@ -119,6 +120,17 @@ header {
 
 #history, #who, #perform {
     text-align: center;
-    width:50%;
     color: darkred;
+    
+}
+
+#about-us-image {
+    height: 550px;
+    width: fit-content;
+    float: right;
+    margin-left: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-right: 0;
+
 }

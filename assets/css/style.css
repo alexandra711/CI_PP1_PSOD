@@ -89,8 +89,6 @@ header {
     background-color: whitesmoke;
     height: 600px;
     padding: 50px;
-    border-top: darkred solid 10px;
-    border-bottom: darkred solid 10px;
 }
 
 #about-us {
@@ -99,9 +97,8 @@ header {
     text-decoration: underline;
     color: black;
     
-    
-   
 }
+
 #history-icon, #people-icon, #perform-icon {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -129,8 +126,13 @@ header {
     width: fit-content;
     float: right;
     margin-left: 20px;
-    padding-bottom: 20px;
-    padding-top: 20px;
+    margin-bottom: 30px;
+    margin-top: 20px;
     margin-right: 0;
+
+    border-style: ridge;
+    border-color: grey;
+    border-width: 10px;
+    
 
 }

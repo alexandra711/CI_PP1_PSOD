@@ -20,10 +20,11 @@
 
          <nav id="nav-menu">
              <ul>
-                <li><a href=""> Register </a></li>
-                <li><a href="#our-classes"> Our Classes </a></li>
-                <li><a href="#about-us"> About Us </a></li>
-                <li> <a href="" class="active">Home </a></li>
+                 <li><a href="#contact"> Contact Us </a></li>
+                 <li><a href="#register"> Register </a></li>
+                 <li><a href="#our-classes"> Our Classes </a></li>
+                 <li><a href="#about-us"> About Us </a></li>
+                 <li> <a href="#main-image" class="active">Home </a></li>
                  
             </ul>
          </nav>
@@ -125,12 +126,72 @@
 
     </section>
 
-    <section>
+    <section id="register">
+
         <! Register your interest >
+
+        <h2>Register Your interest</h2>
+
+        <form method="post" action="https://formdump.codeinstitute.net/" id="register-form">
+            
+            <label for="f-name">First Name</label>
+            <input type="text" id="f-name" name="f-name" required>
+            
+            <label for="l-name">Last Name</label>
+            <input type="text" id="l-name" name="l-name" required>
+            
+            <br>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <br>
+
+            <label for="ballet">Ballet</label>
+            <input type="checkbox" id="ballet" name="ballet" required>
+
+            <label for="modern">Modern</label>
+            <input type="checkbox" id="modern" name="modern">
+
+            <label for="tap">Tap</label>
+            <input type="checkbox" id="tap" name="tap">
+
+            <label for="private">Private Lessons</label>
+            <input type="checkbox" id="private" name="private">
+
+            <label for="stretch">Stretch</label>
+            <input type="checkbox" id="stretch" name="stretch">
+
+            <label for="musical-theatre">Musical Theatre</label>
+            <input type="checkbox" id="musical-theatre" name="musical-theatre">
+
+            <label for="toddlers">Toddler Ballet</label>
+            <input type="checkbox" id="toddler-ballet" name="toddler-ballet">
+            
+            <label for="adults">Adult Classes</label>
+            <input type="checkbox" id="adults" name="adults">
+
+            <br>
+
+            <input type="submit" id="send-button" value="send">
+
+        </form>
     </section>
 
-    <footer>
+    <footer id="footer">
         <! Social Media Icons & smaller nav bar >
+
+        <nav id="footer-nav-menu">
+            <ul>
+                <li><a href="#contact"> Contact Us </a></li>
+                <li><a href="#register"> Register </a></li>
+                <li><a href="#our-classes"> Our Classes </a></li>
+                <li><a href="#about-us"> About Us </a></li>
+                <li> <a href="#main-image" class="active">Home </a></li>
+                
+           </ul>
+        </nav>
+
 
     </footer>
     <script src="https://kit.fontawesome.com/a4993ca05e.js" crossorigin="anonymous"></script>

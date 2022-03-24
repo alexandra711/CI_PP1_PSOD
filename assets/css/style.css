@@ -219,7 +219,7 @@ header {
 }
 
 #footer-menu, li {
-    font-size: 100%;
+    font-size: 25px;
     list-style-type: none;
     margin-top: 20px;
     margin-bottom: 10px;
@@ -227,5 +227,19 @@ header {
 }
 
 #footer-menu li a:hover {
+    color: gold;
+}
+
+footer div {
+    float: left;
+    padding-left: 25px;
+    font-size: 50px;
+}
+
+footer div li {
+    padding-right: 5px;
+}
+
+footer li a:hover {
     color: gold;
 }

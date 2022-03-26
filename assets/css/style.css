@@ -127,6 +127,9 @@ header {
 #history, #who, #perform {
     text-align: center;
     color: darkred;
+    max-height: 200px;
+    overflow: scroll;
+    
     
 }
 
@@ -177,10 +180,14 @@ header {
 #our-classes div h2 {
     color: whitesmoke;
     text-transform: uppercase;
+    text-align: center;
+    font-size: 100%;
 }
 
 #our-classes div h3 {
     color: gold;
+    text-align: center;
+    font-size: 100%;
 }
 
 #register {
@@ -242,4 +249,114 @@ footer div li {
 
 footer li a:hover {
     color: gold;
+}
+
+/* For medium screens max width 950px wide */
+@media screen and (max-width: 950px){
+    
+    #about-us-image {
+        height: 75%;
+        width: auto;
+        float: right;
+        margin-left: 20px;
+        margin-bottom: 30px;
+        margin-top: 20px;
+        margin-right: 0;
+        border-style: ridge;
+        border-color: grey;
+        border-width: 10px;
+    }
+
+    #our-classes div {
+        background-color: rgba(43, 42, 42, 0.5);
+        color: whitesmoke;
+        width: 25%;
+        height: 300px;
+        float: left;
+        padding: 25px 0 0 20px;
+        text-align: center;
+        border: 5px solid rgb(230, 228, 228);
+        box-sizing: border-box;
+    }
+    
+    
+    #our-classes {
+        background-image: url(../images/pexels-cottonbro-6718449.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+
+    }
+
+    #history, #who, #perform {
+        text-align: center;
+        color: darkred;
+        max-height: 200px;
+        overflow: scroll;
+
+    }
+}
+
+/* For small screens below 800px */
+
+@media screen and (max-width:800px){
+
+    #section-about-us {
+        background-color: whitesmoke;
+        height: auto;
+        padding: 50px;
+        padding-top: 30px;
+        padding-bottom: 100px;
+    }
+
+    #about-us-image {
+        height: 10%;
+        width: auto;
+        border-style: solid;
+        border-color: grey;
+        border-width: 1px;
+    }
+
+    #history, #who, #perform {
+        text-align: center;
+        color: darkred;
+        max-height: 200px;
+        overflow: scroll;
+
+    }
+
+    #footer-menu, li {
+        font-size: 90%;
+        list-style-type: none;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        position: relative;
+    }
+
+    footer div {
+        float: left;
+        padding-left: 10px;
+        font-size: 90%;
+    }
+
+    #main-menu, li {
+        float:right;
+        font-size: 100%;
+        list-style-type: none;
+        margin-top: 5px;
+        margin-right: 20px;
+        position: relative;
+        
+    }
+
+    #site-title {
+        font-size: 100%;
+        color: darkred;
+        float: left;
+        text-decoration: none;
+        letter-spacing: 2px;
+        margin-left: 20px;
+    }
+
 }

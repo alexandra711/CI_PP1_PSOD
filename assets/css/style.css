@@ -22,3 +22,28 @@ nav {
     height: 50px;
     background-color: #fff;
 }
+
+nav p {
+    color: rgb(146, 70, 99);
+    font-size: 25px;
+    line-height: 50px;
+    float: left;
+    padding: 0 20px;
+}
+
+nav ul {
+    float: left;
+}
+
+nav ul li {
+    float: left;
+    list-style: none;
+}
+
+nav ul li a {
+    display: inline-block;
+    color: rgb(58, 58, 58);
+    font-size: 18px;
+    padding: 24px 12px;
+    
+}

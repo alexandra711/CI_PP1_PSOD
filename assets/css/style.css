@@ -11,3 +11,8 @@ body {
     font-weight: 300;
     color: black;
 }
+
+body {
+    background-image: url(/assets/images/pexels-dmitry-zvolskiy-1676133.jpg);
+    background-size: cover;
+}

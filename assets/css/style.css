@@ -12,12 +12,16 @@ body {
     color: black;
 }
 
+/* background image */
+
 body {
     background-image: url(/assets/images/pexels-dmitry-zvolskiy-1676133.jpg);
     background-attachment: fixed;
     background-size: cover;
     font-family: open sans, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+
+/* Site title and nav menu */
 
 nav {
     width: 100%;
@@ -111,6 +115,10 @@ nav ul li a {
     padding-top: 10px;
 }
 
+.section-4 > h2.hover {
+    color: rgb(131, 131, 131);
+}
+
 .section-4 #dresses {
     background-image: url(/assets/images/pexels-terje-sollie-313702.jpg);
     background-size: cover;
@@ -131,48 +139,50 @@ nav ul li a {
     
 /* Contact Us Form */
 
-.section-5 h1, form {
+div .section-5 h1, form {
     padding-top: 20px;
-    float: left;
     background-color: #fff;
-    width: 50%;
+    width: 100%;
 }
 
-.section-5 h1 {
-    font-size: 36px;
+.section-5 > h1 {
+    font-size: 40px;
     font-family: parisienne, open sans, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: rgb(146, 70, 99);
-    padding: 20px;
-    width: 50%;
+    padding: 20px 0;
+    width: 100%;
+    text-align: center;
+    background-color: #fff;
 }
 
 form {
     font-size: 22px;
     font-family: open sans, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     height: 500px;
-    width: 50%;
-    padding: 20px;
+    width: 100%;
+    padding: 0 100px 0 100px;
+    display: grid;
 }
 
 input {
-    width: 100%;
-    padding: 20px;
+    width: 80%;
     border-bottom: #000 1px solid;
+    padding: 10px;
 }
 
 #message {
-    resize: vertical;
-    max-height: 300px;
     overflow: scroll;
-    padding-bottom: 10px;
+    line-height: 10px;
 }
 
 #send-button {
-    margin-top: 10px;
+    width: 20%;
+    margin: 10px 0 ;
     border: #000 1px solid;
     border-radius: 5px;
     background-color: rgb(146, 70, 99);
     color: #fff;
-    font-family: parisienne, open sans, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: open sans, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 28px;
+    padding: 5px 10px;
 }

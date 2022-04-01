@@ -83,10 +83,10 @@ nav ul li a {
 
 .section-3 {
     width: 100%;
-    height: 400px;
+    height: 600px;
 }
 .section-4 {
-    background-color: #000;
+    background-color: #fff;
     width: 100%;
     padding: 20px;
 }
@@ -97,32 +97,42 @@ nav ul li a {
     float: left;
     box-sizing: border-box;
     border-radius: 50%;
-    border: 5px rgb(146, 70, 99) solid;
-    padding: 20px 15px;
+    border: 5px #000 solid;
     margin: 10px 15px;
+    padding: 5%;
 }
 
-.section-4 #dresses, #faq, #testimonials {
-    font-size: 24px;
+.section-4 h2 {
     text-align: center;
-    color: #fff;
+    font-size: 250%;
+    color: rgb(146, 70, 99);
+    font-family: parisienne, open sans, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-top: 10px;
 }
 
 .section-4 #dresses {
     background-image: url(/assets/images/pexels-terje-sollie-313702.jpg);
+    background-size: cover;
     overflow: hidden;
 }
 
 .section-4 #faq {
-    background-image: url(/assets/images/pexels-pixabay-157757.jpg);
+    background-image: url(/assets/images/pexels-pixabay-51159.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+
+.section-4 #testimonials {
+    background-image: url(/assets/images/pexels-jeremy-wong-1043902.jpg);
+    background-size: cover;
+    overflow: hidden;
 }
 
 .section-5 {
     width: 100%;
     height: fit-content;
-    background-color: #000;
-    color: #fff;
-    
+    background-color: #fff;
+    color: #000;
 }
 
 .section-5 h1 {

@@ -115,8 +115,10 @@ nav ul li a {
     padding-top: 10px;
 }
 
-.section-4 > h2.hover {
-    color: rgb(131, 131, 131);
+.section-4 h2:hover {
+    color: #fff;
+    border:  3px solid rgb(146, 70, 99);
+    background-color: rgba(0, 0, 0, 0.726);
 }
 
 .section-4 #dresses {
@@ -124,6 +126,7 @@ nav ul li a {
     background-size: cover;
     overflow: hidden;
 }
+
 
 .section-4 #faq {
     background-image: url(/assets/images/pexels-pixabay-51159.jpg);

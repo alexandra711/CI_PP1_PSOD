@@ -217,9 +217,67 @@ input {
     font-size: 22px;
 }
 
-.our-dresses-images {
-    width: 25%;
-    height: 300px;
-    border: #000 2px solid;
+div .our-dresses-images {
+    
+    width: 30%;
+    height: 400px;
+    float: left;
+    box-sizing: border-box;
+    border: 5px #000 solid;
+    margin: 1%;
+    padding: 5%;
+
 }
+
+.our-dresses-images #bride-1 {
+    background-image: url(../images/pexels-boris-ivas-6848858.jpg) alt="";
+    background-size: cover;
+    overflow: hidden;
+}
+
+.our-dresses-images #bride-2 {
+    background-image: url(../images/pexels-carsten-vollrath-11543598.jpg) alt="";
+    background-size: cover;
+    overflow: hidden;
+}
+
+.our-dresses-images #bride-3 {
+    background-image: url(../images/pexels-lucas-mendes-6966594.jpg) alt="";
+    background-size: cover;
+    overflow: hidden;
+}
+
+.our-dresses-images #bride-4 {
+    background-image: url(../images/pexels-evg-kowalievska-3993256.jpg) alt="";
+    background-size: cover;
+    overflow: hidden;
+}
+
+.our-dresses-images #bride-5 {
+    background-image: url(../images/pexels-kyle-roxas-2122363.jpg) alt="";
+    background-size: cover;
+    overflow: hidden;
+}
+
+.our-dresses-images #bride-6 {
+    background-image: url(../images/pexels-min-an-752803.jpg) alt="";
+    background-size: cover;
+    overflow: hidden;
+}
+
+.our-dresses-images #bride-7 {
+    background-image: url(../images/pexels-olya-kobruseva-4545097.jpg) alt="";
+    background-size: cover;
+    overflow: hidden;
+}
+
+.our-dresses-images #bride-8 {
+    background-image: url(../images/pexels-thegiansepillo-3714421.jpg) alt="";
+    background-size: cover;
+    overflow: hidden;
+}
+
+
+
+
 

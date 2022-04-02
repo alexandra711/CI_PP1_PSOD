@@ -202,6 +202,7 @@ input {
 
 /* our-dresses.html */
 
+
 .our-dresses h1 {
     background-color: #fff;
     color: rgb(146, 70, 99);
@@ -239,8 +240,6 @@ div .bride {
 
 /* other-services */
 
-
-
 .other h1 {
     background-color: #fff;
     color: rgb(146, 70, 99);
@@ -251,6 +250,26 @@ div .bride {
     width: 100%;
 }
 
+.other h2 {
+    background-color: #fff;
+    color: rgb(146, 70, 99);
+    text-align: center;
+    font-family: parisienne, open sans, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 28px;
+    padding: 20px 0;
+    width: 100%;
+}
+
+.other h4 {
+    background-color: #fff;
+    color: #000;
+    width: 100%;
+    font-family: open sans, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-size: 22px;
+    padding: 25px 20px;
+}
+
 .other p {
     background-color: #fff;
     color: #000;
@@ -258,7 +277,21 @@ div .bride {
     font-family: open sans, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: center;
     font-size: 22px;
-    padding-bottom: 25px;
+    padding: 25px 20px;
+}
+
+div .accessories-container {
+    border: rgb(146, 70, 99) solid 5px;
+    background-color: #000;
+    height: 600px;
+    width: 100%;
+}
+
+div .accessory {
+    width: 25%;
+    height: 600px;
+    float: left;
+    overflow: hidden;
 }
 
 

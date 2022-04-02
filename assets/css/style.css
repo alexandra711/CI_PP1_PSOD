@@ -202,17 +202,24 @@ input {
     color: rgb(146, 70, 99);
     text-align: center;
     font-family: parisienne, open sans, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 36px;
-    padding: 50px 0;
+    font-size: 38px;
+    padding: 30px 0;
     width: 100%;
 }
 
 .our-dresses p {
     background-color: #fff;
     color: #000;
-    padding: 20px 60px;
-    width: 100%
+    padding: 20px 100px 30px 100px;
+    width: 100%;
+    font-family: open sans, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center justify;
+    font-size: 22px;
+}
 
-
+.our-dresses-images {
+    width: 25%;
+    height: 300px;
+    border: #000 2px solid;
 }
 

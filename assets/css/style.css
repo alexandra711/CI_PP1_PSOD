@@ -226,7 +226,7 @@ input {
 
 div .image-container {
     border: rgb(146, 70, 99) solid 5px;
-    background-color: #000;
+    background-color: #fff;
     height: 1000px;
 }
 

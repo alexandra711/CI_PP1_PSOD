@@ -57,6 +57,10 @@ nav ul li a {
     text-decoration: none;   
 }
 
+nav ul li .active {
+    text-decoration: underline 2px;
+}
+
 
 /* index.html style */
 
@@ -211,12 +215,12 @@ input {
     font-family: open sans, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: center;
     font-size: 22px;
+    padding-bottom: 25px;
 }
 
 
 div .image-container {
     border: rgb(146, 70, 99) solid 5px;
-    margin-top: 25px;
     background-color: #000;
     height: 1000px;
 }

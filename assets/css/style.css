@@ -218,50 +218,19 @@ input {
 }
 
 .slide-container {
-    
-    
+    width: 600px;
+    height: 900px;    
+}
+
+.image-container {
+    width: 4800px;
+    height: 900px;
+    position: relative;
+    transition: left 2s;
 
 }
 
-.our-dresses-images #bride-1 {
-    background-image: url(../images/pexels-boris-ivas-6848858.jpg) alt="";
-   
-}
 
-.our-dresses-images #bride-2 {
-    background-image: url(../images/pexels-carsten-vollrath-11543598.jpg) alt="";
-    
-}
-
-.our-dresses-images #bride-3 {
-    background-image: url(../images/pexels-lucas-mendes-6966594.jpg) alt="";
-    
-}
-
-.our-dresses-images #bride-4 {
-    background-image: url(../images/pexels-evg-kowalievska-3993256.jpg) alt="";
-    
-}
-
-.our-dresses-images #bride-5 {
-    background-image: url(../images/pexels-kyle-roxas-2122363.jpg) alt="";
-    
-}
-
-.our-dresses-images #bride-6 {
-    background-image: url(../images/pexels-min-an-752803.jpg) alt="";
-    
-}
-
-.our-dresses-images #bride-7 {
-    background-image: url(../images/pexels-olya-kobruseva-4545097.jpg) alt="";
-    
-}
-
-.our-dresses-images #bride-8 {
-    background-image: url(../images/pexels-thegiansepillo-3714421.jpg) alt="";
-    
-}
 
 
 

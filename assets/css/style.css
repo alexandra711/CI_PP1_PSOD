@@ -322,29 +322,27 @@ section .testimonials {
     padding: 20px;
 }
 
-#testimonial-gallery {
-    clear: both;
-    line-height: 0;
-    column-count: 3;
-    column-gap: 0;
+#testimonial-gallery > p {
+    background-color: #000;
+    color: #fff;
+    text-align: justify;
+    
+}
+ 
+div #testimonial-gallery {
+    border: rgb(146, 70, 99) solid 5px;
+    background-color: #fff;
+    height: 1800px;
+    width: 100%;
 }
 
 #testimonial-gallery > img {
-    width: 100%;
+    width: 25%;
+    height: 600px;
+    float: left;
+    overflow: hidden;
+
 }
 
-#testimonial-gallery > .overlay {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    transition: 0.5s;
-    background-color: #000;
-    color: #fff;
-}
-
-#testimonial-gallery > #couple1:hover {
-    opacity: 0.95;
-}
 
 

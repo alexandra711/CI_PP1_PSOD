@@ -322,27 +322,31 @@ section .testimonials {
     padding: 20px;
 }
 
-#testimonial-gallery > p {
-    background-color: #000;
-    color: #fff;
-    text-align: justify;
-    
-}
- 
-div #testimonial-gallery {
+div .picture-container {
     border: rgb(146, 70, 99) solid 5px;
-    background-color: #fff;
+    background-color: #000;
     height: 1800px;
     width: 100%;
 }
 
-#testimonial-gallery > img {
+div > img {
     width: 25%;
     height: 600px;
     float: left;
-    overflow: hidden;
-
+    line-height: 14px;
 }
+
+.testimonials p {
+    font-family: open sans, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #000;
+    font-size: 24px;
+    text-align: justify;
+    padding: 20px 25px;
+}
+
+
+
+
 
 
 

@@ -44,8 +44,5 @@
 <li>A hamburger button to contain the navigation bar for smaller screens.</li>
 </ul>
  
-
  <h2>Wireframe</h2>
- 
   
-   

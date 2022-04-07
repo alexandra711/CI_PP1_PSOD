@@ -38,6 +38,11 @@
  <li>My other plans for this section will be touched upon in sections below.</li>
  </ul>
 
+<h2>Features left to implement</h2>
+<ul>
+<li>In the testimonials page I would have liked to use a slideshow of photos instead of a gallery.</li>
+<li>A hamburger button to contain the navigation bar for smaller screens.</li>
+</ul>
  
 
  <h2>Wireframe</h2>

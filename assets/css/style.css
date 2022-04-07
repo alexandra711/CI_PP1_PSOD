@@ -207,9 +207,36 @@ input {
 .section-6 h1 {
     font-family: parisienne, open sans, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: rgb(146, 70, 99);
+    padding: 20px 0 5px 20px;
+    
 }
 
-.section-6 
+.section-6 h4 {
+    font-family: open sans, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #000;
+    padding: 5px 0 20px 20px;
+    float: left;
+
+}
+
+.section-6 .social-media {
+
+    text-align: center;
+}
+    
+    
+.social-media > li {
+        display: inline; 
+}
+        
+.social-media i {
+        font-size: 100%;
+        margin: 1%;
+        padding: 5%;
+        color: rgb(146, 70, 99);
+        list-style-type: none;
+    
+}
 
 /* our-dresses.html */
 

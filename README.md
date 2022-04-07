@@ -7,7 +7,8 @@
  <ul> 
    <li> Navigation Bar </li>
      <ul> 
-      <li>
+      <li>All pages on the Rosario Bridal website feature the same navigation bar throughout, it is responsive to all screen sizes and it also containes the website name/logo which is also a hyperlink to the Home Page.
+      <li> The navigation bar allows the user to navigate between all pages.
  </ul>
   
    

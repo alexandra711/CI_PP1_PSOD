@@ -297,7 +297,7 @@ div .services-container {
     text-align: center;
     font-family: parisienne, open sans, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 38px;
-    padding: 30px 0;
+    padding: 40px 0;
     width: 100%;
 }
 
@@ -355,7 +355,7 @@ section .testimonials {
     font-family: parisienne, open sans, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: rgb(146, 70, 99);
     text-align: center;
-    padding: 30px 0;
+    padding: 40px 0;
     font-size: 36px;
 }
 
@@ -370,13 +370,13 @@ section .testimonials {
 div .picture-container {
     border: rgb(146, 70, 99) solid 5px;
     background-color: #000;
-    height: 1800px;
+    height: 1500px;
     width: 100%;
 }
 
 div > img {
     width: 25%;
-    height: 600px;
+    height: 500px;
     float: left;
     line-height: 14px;
 }
@@ -400,9 +400,8 @@ div > img {
 .faq h1 {
     font-family: parisienne, open sans, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
     color: rgb(146, 70, 99);
-    padding: 20px 0 20px 5px;
+    padding: 40px 0 20px 5px;
     text-align: center;
-    text-decoration: underline 2px;
     font-size: 200%;
 }
 
@@ -437,9 +436,17 @@ div .faq-photo {
     overflow: hidden;
 }
 
-/* For medium screens with a max width of 950px */
+/*For screens larger than 1000px */
 
-@media screen and (max-width: 1200px){
+@media screen and (min-width:1000px) {
+    .other h1, .our-dresses h1, .faq h1, .testimonials h1 {
+        text-align: center;
+    }
+}
+
+/* For medium screens with a max width of 1000px */
+
+@media screen and (max-width: 1000px){
 
     nav p #logo {
         float: left;

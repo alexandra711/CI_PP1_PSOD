@@ -28,7 +28,7 @@ nav {
     
 }
 
-nav p {
+nav #logo {
     color: rgb(146, 70, 99);
     font-size: 44px;
     line-height: 50px;
@@ -190,13 +190,13 @@ input {
 
 #send-button {
     width: 20%;
-    margin: 10px 0 ;
+    margin: 10px 5px ;
     border: #000 1px solid;
     border-radius: 5px;
     background-color: rgb(146, 70, 99);
     color: #fff;
     font-family: open sans, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 28px;
+    font-size: 100%;
     padding: 5px 10px;
 }
 
@@ -236,6 +236,13 @@ input {
         color: rgb(146, 70, 99);
         list-style-type: none;
     
+}
+
+#footer {
+
+    background-color: #fff;
+
+    padding-top: 150px;
 }
 
 /* our-dresses.html */
@@ -430,5 +437,43 @@ div .faq-photo {
     overflow: hidden;
 }
 
+/* For smaller screens with a max width of 800px */
+
+@media screen and (max-width: 950px){
+    nav #logo {
+        text-align: center;
+        background-color: #fff;
+    }
+
+    nav ul {
+        background-color: #fff;
+        text-align: center;
+    }
+
+    nav ul li a {
+      
+        background-color: #fff;
+        font: 10px;
+        padding: 5px 5px;
+        color: #000;
+        
+    }
+
+    #send-button {
+        font-size: 75%;
+    }
+
+    .section-4 div {
+        width: 99%;
+        height: 400px;
+        float: left;
+        box-sizing: border-box;
+        border: 5px #000 solid;
+        margin: 1%;
+        padding: 5px 0;
+    }
+
+
+}
 
 

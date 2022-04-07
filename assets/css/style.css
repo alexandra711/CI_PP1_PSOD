@@ -437,9 +437,29 @@ div .faq-photo {
     overflow: hidden;
 }
 
+/* For medium screens with a max width of 950px */
+
+@media screen and (max-width: 1200px){
+
+    nav p #logo {
+        float: left;
+        background-color: #fff;
+        font-size: 120%;
+    }
+
+    nav ul li {
+        font-size: 20px;
+        background-color: #fff;
+        width: fit-content;
+        padding: 2px 5px;
+
+    }
+
+}
+
 /* For smaller screens with a max width of 800px */
 
-@media screen and (max-width: 950px){
+@media screen and (max-width: 800px){
     nav #logo {
         text-align: center;
         background-color: #fff;
@@ -448,14 +468,16 @@ div .faq-photo {
     nav ul {
         background-color: #fff;
         text-align: center;
+        
     }
 
-    nav ul li a {
+    nav ul li {
       
         background-color: #fff;
         font: 10px;
         padding: 5px 5px;
         color: #000;
+        width: fit-content;
         
     }
 
@@ -471,6 +493,11 @@ div .faq-photo {
         border: 5px #000 solid;
         margin: 1%;
         padding: 5px 0;
+    }
+
+    .other h1, .our-dresses h1, .faq h1, .testimonials h1 {
+        padding-top: 20px;
+        text-align: center;
     }
 
 

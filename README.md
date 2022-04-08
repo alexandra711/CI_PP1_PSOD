@@ -1,3 +1,27 @@
+1. [Project Overview](#project-overview)
+2. [Design](#design)
+    1. [Recurring Features](#recurring-features)
+    2. [Colour](#colours)
+    3. [Fonts](#fonts)
+    4. [Pages](#pages)
+    5. [Wireframes](#wireframes)
+4. [Technologies Used](#technologies-used)
+    1. [Languages](#languages)
+    2. [Frameworks & Tools](#frameworks-&-tools)
+5. [Features](#features)
+6. [Testing](#validation)
+    1. [HTML Validation](#HTML-validation)
+    2. [CSS Validation](#CSS-validation)
+    3. [Accessibility](#accessibility)
+    4. [Performance](#performance)
+    5. [Device testing](#performing-tests-on-various-devices)
+    6. [Browser compatibility](#browser-compatability)
+    7. [Testing user stories](#testing-user-stories)
+8. [Bugs](#Bugs)
+9. [Deployment](#deployment)
+10. [Credits](#credits)
+11. [Acknowledgements](#acknowledgements)
+
 <h1> Rosario Bridal Boutique <h1>
 <h4>  Rosario Bridal Boutique is a site aimed at engaged women aged 20-55 who are looking to find a dress for their upcoming wedding. It is meant to represent a store location where there are bookable appointments to find your perfect wedding dress. </h4> 
  <h2> Features </h2>

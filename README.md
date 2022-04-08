@@ -1,13 +1,16 @@
 # Rosario Bridal Boutique
 (Developer: Alexandra Knight)
 
+[Rosario Bridal Boutique Live Webpage](
+
 1. [Project Overview](#project-overview)
 2. [Design](#design)
     1. [Colour](#colours)
     2. [Fonts](#fonts)
     3. [Pages](#pages)
     4. [Wireframes](#wireframes)
-3. [Features](#features)
+3. [User Requirements](#user-requirements)
+    1. [User-stories](#user-stories)
 4. [Testing](#validation)
     1. [HTML Validation](#HTML-validation)
     2. [CSS Validation](#CSS-validation)
@@ -15,9 +18,11 @@
     4. [Performance](#performance)
     5. [Testing user stories](#testing-user-stories)
 5. [Bugs](#Bugs)
-9. [Deployment](#deployment)
-10. [Credits](#credits)
-11. [Acknowledgements](#acknowledgements)
+6. [Deployment](#deployment)
+7. [Credits](#credits)
+8. [Acknowledgements](#acknowledgements)
+
+
 
 <h4>  Rosario Bridal Boutique is a site aimed at engaged women aged 20-55 who are looking to find a dress for their upcoming wedding. It is meant to represent a store location where there are bookable appointments to find your perfect wedding dress. </h4> 
  <h2> Features </h2>

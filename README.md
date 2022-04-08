@@ -5,7 +5,7 @@
 
 1. [Project Overview](#project-overview)
 2. [Design](#design)
-    1. [Colour](#colours)
+    1. [Colour](#colour)
     2. [Fonts](#fonts)
     3. [Pages](#pages)
     4. [Wireframes](#wireframes)
@@ -34,27 +34,23 @@ Rosario Bridal Boutique is a bridal site for a business located in Eastbourne ad
 
 - For the colour scheme I used black and white as main font colours knowing that white and ivory are very traditional bridal colours and I chose to use a blush pink as my accent colour as it was the colour I created the logo text in. 
 
-### Font
+### Fonts
 
 - I imported Google fonts and chose to use a calligraphy font called Parisienne for my large headings and Open Sans as the text for the body. 
 - I chose to use Parisienne in places where the text was large enough to be easily readable. I did not want to use it in places where the text was too small as it is an intricate font. 
 
 ### Pages 
 
-- The site is 
+- The site has a simple structure. When you first arrive on the website you see the navigation bar, which is the same on every page. 
+- On the main page it has some welcoming text and some images which link to other pages on the site. Below is a contact form and a footer containing social media links.
 
- <h2> Features </h2>
- <h4> When first accessing my website I wanted you to immediately know what the website was for which is why I have recurring features including the logo and nav bar repeated on every page. </h4>
 
- <h2> Recurring features</h2>
- <ul> 
-    <li>I used a matching colour palatte using black text, white background and blush pink accents.</li>
-      
-  <li>All pages on the Rosario Bridal website feature the same navigation bar throughout, it is responsive to all screen sizes and it also containes the website name/logo which is also a hyperlink to the Home Page.</li>
+<details><summary>Homepage</summary>
+    
+    </details>
 
-  <li> The navigation bar allows the user to navigate between all pages.</li>
-      
- </ul>
+### Wireframes
+
 
  <h2>Home Page</h2>
  <ul>

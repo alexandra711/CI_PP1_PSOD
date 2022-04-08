@@ -67,7 +67,6 @@ nav ul li .active {
 /* Background Image break */
 
 .section-1 > img {
-    background-image: url(/assets/images/main-image.jpg);
     background-attachment:fixed;
     background-size:cover;
 }

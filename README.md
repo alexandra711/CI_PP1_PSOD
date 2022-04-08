@@ -32,11 +32,16 @@ Rosario Bridal Boutique is a bridal site for a business located in Eastbourne ad
 
 ### Colour 
 
-- I used black and white as main font colours knowing that white and ivory are very traditional bridal colours and I chose to use a blush pink as my accent colour as it was the colour I created the logo text in. 
+- For the colour scheme I used black and white as main font colours knowing that white and ivory are very traditional bridal colours and I chose to use a blush pink as my accent colour as it was the colour I created the logo text in. 
 
 ### Font
 
 - I imported Google fonts and chose to use a calligraphy font called Parisienne for my large headings and Open Sans as the text for the body. 
+- I chose to use Parisienne in places where the text was large enough to be easily readable. I did not want to use it in places where the text was too small as it is an intricate font. 
+
+### Pages 
+
+- The site is 
 
  <h2> Features </h2>
  <h4> When first accessing my website I wanted you to immediately know what the website was for which is why I have recurring features including the logo and nav bar repeated on every page. </h4>

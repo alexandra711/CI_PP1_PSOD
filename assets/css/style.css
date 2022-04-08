@@ -63,7 +63,7 @@ nav ul li .active {
 /* index.html style */
 
 .section-1 {
-    background-image: url(/assets/images/pexels-dmitry-zvolskiy-1676133.jpg);
+    background-image: url(/assets/images/main-image.jpg);
     background-attachment: fixed;
     background-size: cover;
 }

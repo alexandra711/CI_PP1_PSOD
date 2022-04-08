@@ -219,31 +219,29 @@ input {
 
 }
 
-.section-6 .social-media {
-
-    text-align: center;
-}
-    
-    
-.social-media > li {
-        display: inline; 
-}
-        
-.social-media i {
-        font-size: 100%;
-        margin: 1%;
-        padding: 5%;
-        color: rgb(146, 70, 99);
-        list-style-type: none;
-    
-}
-
 #footer {
 
     background-color: #fff;
-
     padding-top: 150px;
 }
+
+.social-media {
+
+        text-align: center;
+    }
+         
+#footer .social-media > li {
+            display: inline; 
+    }
+            
+#footer .social-media i {
+        font-size: 100%;
+            margin: 1%;
+            padding: 5%;
+            color: rgb(146, 70, 99);
+            list-style-type: none;
+        
+    }
 
 /* our-dresses.html */
 

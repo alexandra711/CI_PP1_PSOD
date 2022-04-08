@@ -68,8 +68,8 @@ nav ul li .active {
 
 .section-1 > img {
     background-image: url(/assets/images/main-image.jpg);
-    background-attachment:fixed;
-    background-size:cover;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 /* About Us Section */

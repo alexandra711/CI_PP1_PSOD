@@ -227,11 +227,11 @@ input {
         text-align: center;
     }
          
-#footer .social-media > li {
+.footer .social-media > li {
             display: inline; 
     }
             
-#footer .social-media i {
+.footer .social-media i {
         font-size: 100%;
             margin: 1%;
             padding: 5%;

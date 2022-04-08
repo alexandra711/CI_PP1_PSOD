@@ -6,6 +6,8 @@
     border: none;
 }
 
+/* site font, weight and colour */
+
 body {
     font-family: parisienne, open sans, Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 300;
@@ -62,14 +64,11 @@ nav ul li .active {
 
 /* index.html style */
 
-.section-1 {
-    background-attachment: fixed;
-    background-size: cover;
-}
-
 /* Background Image break */
 
-.section-1 {
+.section-1 > img {
+    background-attachment: fixed;
+    background-size: cover;
     height: 600px;
 }
 

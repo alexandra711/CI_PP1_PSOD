@@ -130,17 +130,20 @@ nav ul li .active {
 }
 
 .section-4 #dresses {
+   /* background-image: url(assets/images/faq-dress-choosing.jpg);*/ 
     background-size: cover;
     overflow: hidden;
 }
 
 
 .section-4 #faq { 
+   /* background-image: url(assets/images/pexels-pixabay-51159.jpg);*/ 
     background-size: cover;
     overflow: hidden;
 }
 
 .section-4 #testimonials {
+    /* background-image: url(assets/images/pexels-jeremy-wong-1043902.jpg);*/ 
     background-size: cover;
     overflow: hidden;
 }

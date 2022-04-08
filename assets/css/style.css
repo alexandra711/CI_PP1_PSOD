@@ -401,7 +401,6 @@ div > img {
     font-family: parisienne, open sans, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
     color: rgb(146, 70, 99);
     padding: 40px 0 20px 5px;
-    text-align: center;
     font-size: 200%;
 }
 
@@ -439,37 +438,11 @@ div .faq-photo {
 /*For screens larger than 1000px */
 
 @media screen and (min-width:1000px) {
+    
     .other h1, .our-dresses h1, .faq h1, .testimonials h1 {
+        padding-top: 20px;
         text-align: center;
-    }
-}
-
-/* For medium screens with a max width of 1000px */
-
-@media screen and (max-width: 1000px){
-
-    nav p #logo {
-        float: left;
-        background-color: #fff;
-        font-size: 120%;
-    }
-
-    nav ul li {
-        font-size: 20px;
-        background-color: #fff;
-        width: fit-content;
-        padding: 2px 5px;
-
-    }
-
-}
-
-/* For smaller screens with a max width of 800px */
-
-@media screen and (max-width: 800px){
-    nav #logo {
-        text-align: center;
-        background-color: #fff;
+        clear: both;
     }
 
     nav ul {
@@ -486,6 +459,62 @@ div .faq-photo {
         color: #000;
         width: fit-content;
         
+    }
+
+}
+
+/* For medium screens with a max width of 1000px */
+
+@media screen and (max-width: 1000px){
+
+    nav p #logo {
+        float: left;
+        background-color: #fff;
+        font-size: 120%;
+    }
+
+    nav ul li {
+        font-size: 20px;
+        background-color: #fff;
+        width: fit-content;
+        padding: 10px 5px;
+
+    }
+
+    .other h1, .our-dresses h1, .faq h1, .testimonials h1 {
+        padding-top: 20px;
+        text-align: center;
+        clear: both;
+    }
+
+}
+
+/* For smaller screens with a max width of 800px */
+
+@media screen and (max-width: 800px){
+    nav #logo {
+        text-align: center;
+        background-color: #fff;
+    }
+
+    nav ul {
+        background-color: #fff;
+        text-align: center;
+    }
+
+    nav ul li {
+      
+        background-color: #fff;
+        font: 10px;
+        padding: 2px;
+        color: #000;
+        width: fit-content;
+        
+    }
+
+    .section-1 {
+        height: 800px;
+        background-size: cover;
     }
 
     #send-button {
@@ -505,6 +534,7 @@ div .faq-photo {
     .other h1, .our-dresses h1, .faq h1, .testimonials h1 {
         padding-top: 20px;
         text-align: center;
+        clear: both;
     }
 
 

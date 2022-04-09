@@ -40,14 +40,38 @@ Rosario Bridal Boutique is a bridal site for a business located in Eastbourne ad
 - I chose to use Parisienne in places where the text was large enough to be easily readable. I did not want to use it in places where the text was too small as it is an intricate font. 
 
 ### Pages 
-
+<details><summary>Navigation Bar</summary>
+<img src="docs/nav-bar.png">
 - The site has a simple structure. When you first arrive on the website you see the navigation bar, which is the same on every page. 
-- On the main page it has some welcoming text and some images which link to other pages on the site. Below is a contact form and a footer containing social media links.
 
+</details>
 
 <details><summary>Homepage</summary>
-    
-    </details>
+<img src="docs/homepage.png">
+- On the main page it has some welcoming text and some images which link to other pages on the site. Below is a contact form and a footer containing social media links.
+
+</details>
+
+<details><summary>Our Dresses</summary>
+<img src="docs/dresses-page.png">
+- Our dresses page has a blush pink page title with a black paragraph of text with a little bit of information about what the company offers.
+- This is followed by a gallery of wedding dresses.  
+</details>
+
+<details><summary>Other Services</summary>
+<img src="docs/other-services-page.png">
+<img src="docs/other-services-page-2.png">
+- This page has a white background, the same as the other pages, with mainly writing outlining the other services offered by the business, but more depth. The offer headings are blush pink in colour in Parisienne font and the body text is Open Sans in black.
+- There is a gallery at the bottom of example photos of some of the other services available at Rosario Bridal Boutique. 
+</details>
+
+<details><summary>Testimonials</summary>
+<img src="docs/testimonials-page-1.png">
+<img src="docs/testimonials-page-2.png">
+- The testimonials page starts with a gallery of happy brides on their wedding day who have sent in their photos of them in their Rosario Bridal Boutique dresses. 
+- It then scrolls down to the "kind words" title in Parisienne font and blush pink.
+- Then their testimonials below in Open Sans and black. 
+</details>
 
 ### Wireframes
 

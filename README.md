@@ -77,25 +77,20 @@ Rosario Bridal Boutique is a bridal site for a business located in Eastbourne ad
 - The FAQ page has a similar layout to the other services page with text at the top and photos at the bottom. The questions being asked are in Parisienne font in blush pink. The answer is in Open Sans below the question in black. All the text is centered for a slimline look.
 </details>
 <br>
-## Wireframes
+
+## Wireframes 
 
 I created the original wireframe for the original Homepage layout of the website. I originally wanted a hero image at the top of the page under the navigation bar, followed by a paragraph section. 
 
 <img src="docs/wireframe.png">
 
-<br>
-
 ## User Requirements
 
 
 
-
-
-<h2>Features left to implement</h2>
+ <h2>Features left to implement</h2>
 <ul>
 <li>In the testimonials page I would have liked to use a slideshow of photos instead of a gallery.</li>
 <li>A hamburger button to contain the navigation bar for smaller screens.</li>
 </ul>
- 
- <h2>Wireframe</h2>
   

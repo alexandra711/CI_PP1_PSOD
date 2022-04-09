@@ -30,26 +30,24 @@ Rosario Bridal Boutique is a bridal site for a business located in Eastbourne ad
 
 ## Design
 
-### Colour 
+## Colour 
 
 - For the colour scheme I used black and white as main font colours knowing that white and ivory are very traditional bridal colours and I chose to use a blush pink as my accent colour as it was the colour I created the logo text in. 
 
-### Fonts
+## Fonts
 
 - I imported Google fonts and chose to use a calligraphy font called Parisienne for my large headings and Open Sans as the text for the body. 
 - I chose to use Parisienne in places where the text was large enough to be easily readable. I did not want to use it in places where the text was too small as it is an intricate font. 
 
-### Pages 
+## Pages 
 <details><summary>Navigation Bar</summary>
 <img src="docs/nav-bar.png">
 - The site has a simple structure. When you first arrive on the website you see the navigation bar, which is the same on every page. 
-
 </details>
 
 <details><summary>Homepage</summary>
 <img src="docs/homepage.png">
 - On the main page it has some welcoming text and some images which link to other pages on the site. Below is a contact form and a footer containing social media links.
-
 </details>
 
 <details><summary>Our Dresses</summary>
@@ -73,33 +71,25 @@ Rosario Bridal Boutique is a bridal site for a business located in Eastbourne ad
 - Then their testimonials below in Open Sans and black. 
 </details>
 
-### Wireframes
+<details><summary>FAQs</summary>
+<img src="docs/faq-page.png">
+<img src="docs/faq-page-2.png">
+- The FAQ page has a similar layout to the other services page with text at the top and photos at the bottom. The questions being asked are in Parisienne font in blush pink. The answer is in Open Sans below the question in black. All the text is centered for a slimline look.
+</details>
+<br>
+## Wireframes
+
+I created the original wireframe for the original Homepage layout of the website. I originally wanted a hero image at the top of the page under the navigation bar, followed by a paragraph section. 
+
+<img src="docs/wireframe.png">
+
+<br>
+
+## User Requirements
 
 
- <h2>Home Page</h2>
- <ul>
-  <li>The goal of my homepage was to be minimalist and feminine from the very beginning with a follow through of a </li>
-  <li>The Home Page allows the user to see a description of what the business does, also by the main image, and it also provides an address for the "location" and contact number and social media links</li>
- </ul>
 
- <h2>Our Dresses Page</h2>
- <ul>
-  <li>On the Our Dresses page I wanted to carry through the colour scheme used on the home page,</li>
-  <li>I have also created a div on the bottom of the page to display some previous clients in their dresses</li>
-  <li>I wanted this page to have lots of photos of different dresses because it is a very insiprational page to show that the shop has variety and how better than to say it than to show it.</li>
- </ul>
 
- <h2>Other Services page and FAQ page</h2>
-
- <h4>On these pages I have gone for simple and mainly text based pages, where you would come to looking for answers to your questions and they aren't necessarily pages that spark inspiration as much as the other pages.</h4>
- <h4>I have added photos to the bottom of each page in a div so each page has a bridal based photo decoration.</h4>
-
- <h2>Testimonials page</h2>
- <ul>
- <li>On this page I decided to use a feature picture gallery as the first thing you see on the page. It was intended to be pictures of brides (and their partners) on their wedding day, in their dress bought from the Boutique.</li>
- <li>Below I decided to have a heading saying Your Kind Words and then what they had said.</li>
- <li>My other plans for this section will be touched upon in sections below.</li>
- </ul>
 
 <h2>Features left to implement</h2>
 <ul>

@@ -1,7 +1,7 @@
 # Rosario Bridal Boutique
 (Developer: Alexandra Knight)
 
-[Rosario Bridal Boutique Live Webpage]()
+[Rosario Bridal Boutique Live Webpage](https://alexandra711.github.io/CI_PP1_RBB/)
 
 1. [Project Overview](#project-overview)
 2. [Design](#design)
@@ -15,12 +15,11 @@
     1. [HTML Validation](#HTML-validation)
     2. [CSS Validation](#CSS-validation)
     3. [Accessibility](#accessibility)
-    4. [Performance](#performance)
-    5. [Testing user stories](#testing-user-stories)
 5. [Bugs](#Bugs)
-6. [Deployment](#deployment)
-7. [Credits](#credits)
-8. [Acknowledgements](#acknowledgements)
+6. [Features Left To Implement](#features-left-to-implement)
+7. [Deployment](#deployment)
+8. [Credits](#credits)
+
 
 
 
@@ -85,12 +84,93 @@ I created the original wireframe for the original Homepage layout of the website
 <img src="docs/wireframe.png">
 
 ## User Requirements
+- Clean, feminine and simple website
+- Easy to use
+- Can easily present former happy clients
+- Possible customers can contact us
+- Pages that look like they link back to the homepage
 
+## User Stories
 
+### First Time User
 
- <h2>Features left to implement</h2>
-<ul>
-<li>In the testimonials page I would have liked to use a slideshow of photos instead of a gallery.</li>
-<li>A hamburger button to contain the navigation bar for smaller screens.</li>
-</ul>
-  
+As this business doesn't necessarily have repeat customers, the aim is mainly at first time users because repeat customers are less likely. 
+
+#### As a first time user, I want to...
+
+1. Be able to see some of the appointment options
+2. Find the contact details
+3. Feel welcomed
+4. Read some reviews
+5. See some of the dresses available
+6. Find some advice about my appointment
+
+#### As a returning user, I want to...
+
+7. Find out about additional services offered
+8. Find contact information
+9. Leave a comment as a satisfied/unsatisfied customer
+
+## Testing
+
+<details><summary>HTML validation</summary>
+<img src="docs/html-validator.png">
+</details>
+
+<details><summary>CSS validation</summary>
+<img src="docs/css-validator.png">
+</details>
+
+<details><summary>Accessibility Testing</summary>
+    <details><summary>Homepage</summary>
+    <img src="docs/accessibility-validator-main.png">
+    </details>
+    <details><summary>Our Dresses</summary>
+    <img src="docs/accessibility-our-dresses.png">
+    </details>
+    <details><summary>Other Services</summary>
+    <img src="docs/accessibility-other-services.png">
+    </details>
+    <details><summary>Testimonials</summary>
+    <img src="docs/accessibility-testimonials.png">
+    </details>
+    <details><summary>FAQs</summary>
+    <img src="docs/accessibility-faq.png">
+    </details>
+</details>
+
+## Bugs 
+
+- I have found that on my main page (index.html) some of the images load in the local site on gitpod and look like the website is intended to look. 
+
+- However when the website is deployed, the pictures do not load.
+
+- I asked my community on Slack, I watch many Youtube videos and also my mentor during a session who told me to contact tutor support if I couldn't figure it out. 
+
+- Upon contacting tutor support, they told me it was a very confusing situation and they couldn't figure out why it was happening either, my code is correct in HTML and CSS but it is not deploying so unfortunately my main page does not look finished eventhough the code is there. 
+
+This is the final product:
+
+<img src="docs/rosario-bridal--boutique-bugs.png">
+
+## Features Left To Implement
+
+- In the testimonials page I would have liked to use a slideshow of photos instead of a gallery.
+- A hamburger button to contain the navigation bar for smaller screens.
+
+## Deployment 
+
+- The website is deployed using Github Pages
+- In the Settings > Pages
+- The source branch is set to 'main'
+- The folder is (root)
+- It then comes up with a green box to say 'your site is published at "https://alexandra711.github.io/CI_PP1_RBB/"' which is a clickable link to the deployed site. 
+
+## Credits 
+
+- Font Awesome script was used for social media icons in the main page footer.   
+- Google Fonts, Parisienne and Open Sans were the two fonts imported from Google Fonts 
+- Pexels provided all images used on this site. 
+- w3c helped me with some ideas for incorporating a hamburger button and creating a slideshow but I couldn't get it working correctly.
+- Code Institute Tutor and Mentor Support for helping me figure out some bug problems and some that for some reason were unfixable.
+- Code Institute for the coding knowledge to begin creating this website. 
